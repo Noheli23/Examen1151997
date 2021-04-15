@@ -6,7 +6,7 @@ fetch(url1)
 
     let res=document.getElementById('noticias')
     for (let i of data) {
-              
+            
         res.innerHTML+= `
         <a href="../html/conte.html""><h4>${i.titulo} – ${i.categoria} – ${i.fecha}</h4></a>
         <p>${i.descripcion} <a href="../html/conte.html" >Ver más</a></p>
