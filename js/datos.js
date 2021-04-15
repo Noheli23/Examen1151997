@@ -77,3 +77,17 @@ fetch(url2)
         `
   
   })
+
+  const url6= 'https://carlosreneas.github.io/endpoints/noticia_1.json'
+
+  fetch(url6)
+  .then(response => response.json())
+  .then(data => {
+    
+      let res=document.getElementById('img2')
+      res.innerHTML+= `
+        <img src="${data.img}" width="100%" class="img-fluid" alt="">
+        
+        `
+  
+  })

@@ -12,7 +12,7 @@ nav{
     width: 100%;
 }
 #ft{
-    background-color: rgb(192, 186, 186);
+    background-color: rgb(128, 121, 121);
 }
 
 
@@ -26,5 +26,6 @@ nav{
     display: block;
  }
  footer{
-     background-color: rgb(231, 139, 157);
+     background-color: rgb(165, 21, 21);
+     color: white;
  }
