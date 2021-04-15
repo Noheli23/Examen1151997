@@ -1,0 +1,30 @@
+body{
+    text-align: justify !important;
+}
+#img1 img{
+    width: 80%;
+}
+nav{
+    background-color: rgb(224, 32, 32) !important;
+}
+
+#img2 img{
+    width: 100%;
+}
+#ft{
+    background-color: rgb(192, 186, 186);
+}
+
+
+#footer img{
+    width: 10%;
+}
+#footer p{
+   display: inline;
+}
+#footer a{
+    display: block;
+ }
+ footer{
+     background-color: rgb(231, 139, 157);
+ }
